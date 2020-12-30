@@ -1,0 +1,27 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+}
+header img {
+  width: 100%;
+  height: inherit;
+}
+nav {
+  height: 100px;
+}
+button {
+  background-color: #cccccc;
+  color: #3e00ff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 90px 10px 90px;
+  border: #cccccc;
+  border-left: 2px solid #adadad;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -5px;
+}
