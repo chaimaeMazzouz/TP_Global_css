@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .container {
   width: 90%;
   margin: 0 auto;
@@ -50,4 +53,11 @@ nav a {
 .paragraphe {
   font-family: sans-serif;
   text-indent: 30px;
+}
+.sideBar {
+  width: 20%;
+  float: left;
+}
+.sideBar img {
+  padding-left: 50px;
 }
