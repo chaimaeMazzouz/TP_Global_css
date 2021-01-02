@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <link rel="stylesheet" href="page.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>TP GLOBAL</title>
   </head>
   <body>
-    <div class="container">
-      <header>
+    <div class="main-container">
+      <header id="header">
         <img src="./img/headerPic.png" alt="css picture" />
+        <nav>
+          <a href="#html" class="btn1">HTML</a>
+          <a href="#html5">HTML5</a>
+          <a href="#css">CSS</a>
+          <a href="#animation">Animation</a>
+          <a href="#divers">Divers</a>
+        </nav>
       </header>
-      <nav>
-        <a href="#html" class="btn1">HTML</a>
-        <a href="#html5">HTML5</a>
-        <a href="#css">CSS</a>
-        <a href="#animation">Animation</a>
-        <a href="#divers">Divers</a>
-      </nav>
       <section class="content">
-        <div id="html">
+        <div id="html" class="part">
           <div class="title">
             <img src="./img/logo.png" />
             <h2>HTML...</h2>
@@ -43,7 +44,7 @@
             </p>
           </div>
         </div>
-        <div id="html5">
+        <div id="html5" class="part">
           <div class="title">
             <img src="./img/logo.png" />
             <h2>HTML5...</h2>
@@ -57,7 +58,7 @@
             </p>
           </div>
         </div>
-        <div id="css">
+        <div id="css" class="part">
           <div class="title">
             <img src="./img/logo.png" />
             <h2>CSS...</h2>
@@ -78,7 +79,7 @@
             </p>
           </div>
         </div>
-        <div id="animation">
+        <div id="animation" class="part">
           <div class="title">
             <img src="./img/logo.png" />
             <h2>Animation...</h2>
@@ -98,7 +99,7 @@
             </p>
           </div>
         </div>
-        <div id="divers">
+        <div id="divers" class="part">
           <div class="title">
             <img src="./img/logo.png" />
             <h2>Divers...</h2>
@@ -111,6 +112,13 @@
               technique a permis aux designers de réussir des effets
               époustouflants avec un minimum de code.
             </p>
+            <p>
+              Les transitions CSS permettent le passage d'un objet d'un état à
+              un autre d'une manière progressive créant ainsi une animation.
+            </p>
+            <p class="haut-page">
+              <a href="#header">Haut de page</a>
+            </p>
           </div>
         </div>
       </section>
@@ -122,10 +130,10 @@
         <img src="./img/sidePic.png" />
         <img src="./img/sidePic.png" />
       </section>
-      <footer class="footer">
-        <p>Réalisation des code HTML/CSS</p>
-        <p>TDI &copy; 2020-2021</p>
-      </footer>
     </div>
+    <footer class="footer">
+      <p>Réalisation des code HTML/CSS</p>
+      <p>TDI &copy; 2020-2021</p>
+    </footer>
   </body>
 </html>
