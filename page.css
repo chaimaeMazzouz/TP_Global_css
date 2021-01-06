@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(
-    to right,
-    rgba(3, 156, 3, 0.3),
-    rgba(3, 156, 3, 0.8)
-  );
+  background: linear-gradient(to left top, green, white);
   font-family: sans-serif;
   height: 1400px;
 }
